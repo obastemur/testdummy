@@ -1,0 +1,13 @@
+{
+  "build": { "ios": "./build_ios.sh", "android": "./build_droid.sh" },
+  "binary_path": { 
+    "ios": "platforms/ios/build/device/HelloWorld.app", 
+    "android": "platforms/android/build/outputs/apk/android-release-unsigned.apk" 
+  },
+  "target": "all",
+  "priority": "normal",
+  "csname": { "android": "com.example.hello", "ios": "com.example.hello" },
+  "timeout": 150,
+  "serverScript": "serverApp/"
+}
+

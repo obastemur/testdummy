@@ -1,0 +1,16 @@
+{
+  "name": "TestServer",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "."
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "0.10"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jxm": "^0.3.9"
+  }
+}
