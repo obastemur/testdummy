@@ -4,7 +4,7 @@
     "ios": "platforms/ios/build/device/HelloWorld.app", 
     "android": "platforms/android/build/outputs/apk/android-release-unsigned.apk" 
   },
-  "target": "all",
+  "target": "android",
   "priority": "normal",
   "csname": { "android": "com.example.hello", "ios": "com.example.hello" },
   "timeout": 150,
