@@ -33,4 +33,4 @@ cordova build android --release --device;ERROR_ABORT
 
 echo "copying Android build for CI"
 rm -rf android-release-unsigned.apk
-cp -R ../testdummy/platforms/android/build/outputs/apk/android-release-unsigned.apk android-release-unsigned.apk
+cp -R ../testBuild/platforms/android/build/outputs/apk/android-release-unsigned.apk android-release-unsigned.apk
