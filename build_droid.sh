@@ -32,3 +32,7 @@ cordova plugin remove io.jxcore.node;ERROR_ABORT
 cordova plugin add io.jxcore.node/;ERROR_ABORT
 cordova platform add android;ERROR_ABORT
 cordova build android --release --device;ERROR_ABORT
+
+echo "copying Android build for CI"
+rm -rf android-release-unsigned.apk
+cp -R ../testdummy/platforms/android/build/outputs/apk/android-release-unsigned.apk android-release-unsigned.apk
