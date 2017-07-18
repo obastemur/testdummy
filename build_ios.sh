@@ -28,7 +28,5 @@ ERROR_ABORT() {
 
 cordova platform remove ios;ERROR_ABORT
 cordova platform remove android;ERROR_ABORT
-cordova plugin remove io.jxcore.node;ERROR_ABORT
-cordova plugin add io.jxcore.node/;ERROR_ABORT
 cordova platform add ios;ERROR_ABORT
 cordova build ios --device;ERROR_ABORT
